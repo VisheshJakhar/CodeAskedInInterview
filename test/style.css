@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  --gradient: linear-gradient(to right, red, orange);
+}
+
+.heading {
+  display: flex;
+  padding-left: 100px;
+  padding-right:30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+}
+
+.phoneno{
+  margin-right:2rem;
+}
+
+.button {
+  background-image: var(--gradient);
+  padding: 7px 30px;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.phone {
+  font-size: 1.25rem;
+}
+
+.navig {
+  font-weight: bolder;
+  padding-left: 110px;
+  display: flex;
+  max-width: 60vw;
+  justify-content: space-between;
+}
+
+.navig h7:hover {
+  cursor: pointer;
+}
+
+.poster {
+  display: flex;
+  align-items: flex-start;
+  background-image: url("./images/poster.jpg");
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width:100vw;
+  padding: 5rem;
+}
+
+.h1-text {
+  width: 100%;
+    line-height: 22px;
+  font-size:27px;
+}
+
+.heading-text p {
+  font-size: 16px;
+  font-weight: 110;
+}
+
+.get-in-touch-btn {
+  margin-top: 10px;
+}
+
+.part1 {
+  justify-content: space-around;
+  align-items: center;
+  padding: 110px;
+  display: flex;
+}
+
+.img1 {
+  width: 40vw;
+}
+
+.img1 img {
+  width: 100%;
+}
+
+.part1-text{
+  max-width: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.part1sub p {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.fa-times {
+  display: none;
+}
+
+.extra p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+
+.twocards {
+  padding: 110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.cardadj {
+  max-width: 48%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-text h2 {
+  margin: 20px;
+}
+
+.card-text p {
+  line-height: 35px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.endpart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.endpart2 {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 98px 48px 98px;
+}
